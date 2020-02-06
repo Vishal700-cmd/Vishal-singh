@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Labevalution">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Train no:140003"
+        android:textSize="20sp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Train name:Vande Bharat"
+        android:textSize="20dp"
+        android:id="@+id/e11"
+        android:hint="Enter name if train"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Source:"
+        android:textSize="20dp"
+        android:id="@+id/e12"
+        android:hint="Name of Source place"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Destination:"
+        android:textSize="20dp"
+        android:id="@+id/e13"
+        android:hint="Enter the Destination place"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ticket Fair:Sleeperclass:500"
+        android:textSize="20dp"
+        android:id="@+id/e14"
+        android:hint="Enter name if train"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="No of persons:"
+        android:textSize="20dp"
+        android:id="@+id/e15"
+        android:inputType="number"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="no of kids:"
+        android:textSize="20dp"
+        android:id="@+id/e16"
+        android:inputType="number"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="calculatecharges"
+        android:layout_marginTop="20dp"
+        android:text="CALCULATE CHARGES"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total fare is:"
+        android:textSize="20sp"
+        android:id="@+id/e44"
+        />
+
+
+</LinearLayout>

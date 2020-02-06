@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="login"
+        android:text="Login"
+        android:textSize="20sp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Calculator"
+        android:layout_marginTop="30dp"
+        android:text="Calculator"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="use_bundle_to_send_data"
+        android:layout_marginTop="30dp"
+        android:text="Send data using bundle"
+        android:textSize="20sp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="classassigment"
+        android:layout_marginTop="30dp"
+        android:text="Class Assigment"
+        android:textSize="20sp"
+        />
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/tv2"
+           android:inputType="numberDecimal"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t1"
+        android:inputType="numberDecimal"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="labevalution"
+        android:layout_marginTop="30dp"
+        android:text="Lab Evalution"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="webview"
+        android:layout_marginTop="30dp"
+        android:text="Web View"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"/>
+
+
+
+</LinearLayout>
