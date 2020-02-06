@@ -56,4 +56,9 @@ public class MainActivity extends AppCompatActivity {
         Intent op =new Intent(this ,openbrowser.class);
         startActivity(op);
     }
+
+    public void ordermenu(View view) {
+            Intent ol =new Intent(this ,OrderMenu.class);
+            startActivity(ol);
+    }
 }
