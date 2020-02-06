@@ -15,7 +15,7 @@ public class OrderMenu extends AppCompatActivity {
         setContentView(R.layout.activity_order_menu);
         cb1=findViewById(R.id.cb1);
         cb2=findViewById(R.id.cb2);
-        cb3=findViewById(R.id.cb2);
+        cb3=findViewById(R.id.cb3);
     }
 
     public void show_the_bill(View view) {
